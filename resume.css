@@ -3,13 +3,16 @@ body{
 }
 
 /* header part */
-#body_header{
+#body_header {
     height:65vh;
+    color:black;
     background-image: url(macbook_mouse.jpg);
     background-position: center;
     background-size:cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 0p;
+    
+
 
 }
 
@@ -103,5 +106,15 @@ p{
 /* colorful words in paragraph */
 span{
     color:blue;
+}
+
+@media screen and (max-height:500px){
+
+    #body_header{
+
+        height:65vh;
+
+    }
+    
 }
 
